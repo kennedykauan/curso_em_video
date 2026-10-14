@@ -1,0 +1,11 @@
+body{
+    background: black url("imagens/espaco.jpg") center center no-repeat fixed;
+    background-size: cover;
+    height: 98vh;
+}
+div{
+    background-image: url("imagens/astronauta.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 98vh; 
+}

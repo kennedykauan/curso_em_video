@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas grandes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+            text-align: center;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color:gray;
+        }
+        .num{
+            text-align: center;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;}
+        tbody > tr:nth-child(2n){
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>População das unidades federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    São paulo
+                </td>
+                <td class="num">
+                    45 919 049
+                </td>
+            </tr>
+            <tr>
+                <td>Minas gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr id="melhor_cidade">
+                <td>Distrito federal</td>
+                <td class="num">2 923 369</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td scope="row">Total de habitantes</td>
+                <td><strong>87 276 152</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quasi vel cum laborum earum, ullam temporibus aliquid? Ipsam sapiente reprehenderit ipsa possimus voluptatum magnam provident, sit error voluptatibus nostrum modi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus labore porro nemo minima dignissimos! Neque deserunt saepe culpa et perferendis error ipsa aliquid a, atque consequatur nulla ratione quis ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quo animi est velit ad itaque aliquam vel, cum dignissimos rerum quod praesentium ullam, esse nihil, consequatur sapiente commodi aut reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsum ab soluta non, quos itaque deleniti saepe aliquam odio ducimus voluptatibus at voluptate pariatur tenetur eaque reprehenderit aperiam maiores inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quasi vel cum laborum earum, ullam temporibus aliquid? Ipsam sapiente reprehenderit ipsa possimus voluptatum magnam provident, sit error voluptatibus nostrum modi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus labore porro nemo minima dignissimos! Neque deserunt saepe culpa et perferendis error ipsa aliquid a, atque consequatur nulla ratione quis ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quo animi est velit ad itaque aliquam vel, cum dignissimos rerum quod praesentium ullam, esse nihil, consequatur sapiente commodi aut reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsum ab soluta non, quos itaque deleniti saepe aliquam odio ducimus voluptatibus at voluptate pariatur tenetur eaque reprehenderit aperiam maiores inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quasi vel cum laborum earum, ullam temporibus aliquid? Ipsam sapiente reprehenderit ipsa possimus voluptatum magnam provident, sit error voluptatibus nostrum modi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus labore porro nemo minima dignissimos! Neque deserunt saepe culpa et perferendis error ipsa aliquid a, atque consequatur nulla ratione quis ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quo animi est velit ad itaque aliquam vel, cum dignissimos rerum quod praesentium ullam, esse nihil, consequatur sapiente commodi aut reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsum ab soluta non, quos itaque deleniti saepe aliquam odio ducimus voluptatibus at voluptate pariatur tenetur eaque reprehenderit aperiam maiores inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quasi vel cum laborum earum, ullam temporibus aliquid? Ipsam sapiente reprehenderit ipsa possimus voluptatum magnam provident, sit error voluptatibus nostrum modi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus labore porro nemo minima dignissimos! Neque deserunt saepe culpa et perferendis error ipsa aliquid a, atque consequatur nulla ratione quis ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quo animi est velit ad itaque aliquam vel, cum dignissimos rerum quod praesentium ullam, esse nihil, consequatur sapiente commodi aut reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsum ab soluta non, quos itaque deleniti saepe aliquam odio ducimus voluptatibus at voluptate pariatur tenetur eaque reprehenderit aperiam maiores inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quasi vel cum laborum earum, ullam temporibus aliquid? Ipsam sapiente reprehenderit ipsa possimus voluptatum magnam provident, sit error voluptatibus nostrum modi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus labore porro nemo minima dignissimos! Neque deserunt saepe culpa et perferendis error ipsa aliquid a, atque consequatur nulla ratione quis ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quo animi est velit ad itaque aliquam vel, cum dignissimos rerum quod praesentium ullam, esse nihil, consequatur sapiente commodi aut reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsum ab soluta non, quos itaque deleniti saepe aliquam odio ducimus voluptatibus at voluptate pariatur tenetur eaque reprehenderit aperiam maiores inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quasi vel cum laborum earum, ullam temporibus aliquid? Ipsam sapiente reprehenderit ipsa possimus voluptatum magnam provident, sit error voluptatibus nostrum modi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus labore porro nemo minima dignissimos! Neque deserunt saepe culpa et perferendis error ipsa aliquid a, atque consequatur nulla ratione quis ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quo animi est velit ad itaque aliquam vel, cum dignissimos rerum quod praesentium ullam, esse nihil, consequatur sapiente commodi aut reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsum ab soluta non, quos itaque deleniti saepe aliquam odio ducimus voluptatibus at voluptate pariatur tenetur eaque reprehenderit aperiam maiores inventore?</p>
+</body>
+</html>

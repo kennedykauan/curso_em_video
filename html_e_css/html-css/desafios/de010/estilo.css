@@ -1,0 +1,166 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'droid';
+    src: url('fonte/varsity_regular.ttf') format('truetype'); }
+
+
+body{
+    margin: 0px;
+    background-color: #84E1AD;
+}
+p{
+    text-indent: 30px;
+    text-align: left;
+}
+header{
+    
+    background-image: linear-gradient(to bottom, #59b380, #0a4206, #1ea015, #0c4d07, #0c4d07);
+    background-attachment: fixed;
+    padding: 10px;
+}
+header > h1{
+    margin-top: 30px;
+    color: white;
+    text-align:center;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+header > p{ 
+    margin: 40px auto;
+    color: white;
+    text-align:center;
+    text-indent: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:normal;
+    text-shadow: 1px 1px 1px black;
+}
+nav{
+    text-align: left;
+    margin-bottom: -6px;
+}
+header > nav > span{
+    padding: 4px;
+    margin-left: -6px;
+    margin-right: 6px;
+    background-color: #11500b63;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200px;
+    font-size: 0.9em;    
+    font-size: bold;
+    
+}
+header > nav > .naveg:hover, header > nav > span > .naveg:hover{
+    background-color: #4cac3d;
+    color: black;
+}
+nav > span > a{
+    color: white;
+    text-decoration: none;
+}
+main > #titulo{
+    margin: 10px auto;
+    font-size: 70px;
+    color: #2c5c40;
+}
+main{
+    background-color: white;
+    margin: 0px 100px;
+    padding: 10px 20px 0px 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.418);
+}
+
+main > p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+#primeira{
+    background-image: linear-gradient(to right, rgb(162, 212, 162), rgb(162, 221, 162), white);
+    font-family:"droid";
+}
+#linkt{
+    text-decoration: underline;
+    background-color: #82e07ba2;
+    color: black;
+    font-weight: bold;
+}
+#fotofoda{
+    margin: auto;
+    text-align: center;
+}
+#video{
+    text-align: center;
+    
+}
+#video2{
+    background-color: rgb(0, 92, 0);
+    padding: 20px;
+    margin: 0px -20px 20px -20px;
+}
+#aprender{
+    color: white;
+    background-color: #1ba011;
+    border-radius: 10px 10px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: large;
+    
+}
+#final > p{
+    margin-top: 0px;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-top: 3px;
+    
+}
+
+
+#video {
+    position: relative;
+    padding-bottom: 56.25%; 
+    padding-top: 25px;
+    height: 0;
+    margin: auto;
+}
+#video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#listas{
+    border-radius: 0px 0px 10px 10px;
+    background-color: #84e1ac60;
+    padding-bottom: 5px;
+}
+.lista1{
+    text-decoration: underline;
+
+}
+#text{
+    margin: 16px;
+}
+#ultimo{
+    padding-bottom: 20px;
+}
+footer{
+    background-color: #0c4d07;
+    color: rgba(236, 236, 236, 0.89);
+}
+footer > p{
+    padding: 10px 0px;
+    text-align: center;  
+    margin-bottom: 0px;
+    font-style: italic;
+}
+#nome{
+    font-style: normal;
+    color: white;
+}
+
+
+

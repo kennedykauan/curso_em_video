@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/*HTML id, CSS eh #
+class css eh .*/
+body{
+    background-image:linear-gradient(45deg,#F58373, #A86258);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #492b26;
+}
+#principal{
+    color: rgb(255, 255, 255);
+    background-color: #83473f;
+    text-align: center;
+}
+.avan{
+    color: rgb(226, 41, 41);
+}
+.intermediario{
+    color: #dbdd5b;
+}
+.basico{
+    color: rgb(99, 206, 108);
+}
+h2{
+    color: #7e4a42;
+}
